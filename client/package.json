@@ -3,12 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://scantea.github.io/openai_codex",
   "scripts": {
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -b main -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
