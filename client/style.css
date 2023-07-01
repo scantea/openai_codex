@@ -8,13 +8,13 @@
 }
 
 body {
-  background: #343541;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 
 #app {
   width: 100vw;
   height: 100vh;
-  background: #343541;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 
   display: flex;
   flex-direction: column;
@@ -50,7 +50,7 @@ body {
 }
 
 .ai {
-  background: #40414F;
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);;
 }
 
 .chat {
@@ -65,8 +65,8 @@ body {
 }
 
 .profile {
-  width: 36px;
-  height: 36px;
+  width: 80px;
+  height: 80px;
   border-radius: 5px;
 
   background: #5436DA;
@@ -117,7 +117,7 @@ form {
   max-width: 1280px;
   margin: 0 auto;
   padding: 10px;
-  background: #40414F;
+  background: #89cae0;
 
   display: flex;
   flex-direction: row;

@@ -1,5 +1,5 @@
-import bot from "./assets/bot.svg";
-import user from "./assets/user.svg";
+import bot from "./assets/foxIcon.png";
+import user from "./assets/user.png";
 
 const form = document.querySelector("form");
 const chatContainer = document.querySelector("#chat_container");
@@ -105,7 +105,7 @@ const handleSubmit = async (e) => {
   } else {
     const err = await response.text();
 
-    messageDiv.innerHTML = "Something went wrong";
+    messageDiv.innerHTML = "Hello, how are you feeling?";
     alert(err);
   }
 };
